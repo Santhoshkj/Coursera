@@ -66,6 +66,7 @@ array([[131,  25],
 sklearn.metrics.accuracy_score(Test_Y, predictions)
 #0.7835497835497836
 
+Accurancy of Random Forest = 78.5%
 
 # fit an Extra Trees model to the data
 model = ExtraTreesClassifier()
@@ -74,6 +75,8 @@ model.fit(Train_X,Train_Y)
 print(model.feature_importances_)
 #[0.11529349 0.24492738 0.09891448 0.0871488  0.06046185 0.13864495
 #0.11388957 0.14071948]
+
+#selecting number of trees
 
 
 trees=range(25)
