@@ -90,3 +90,21 @@ for idx in range(len(trees)):
    
 plt.cla()
 plt.plot(trees, accuracy)
+
+
+
+"""
+RESULT AND SUMMARY """
+
+DIATABETES DATASET WAS ANALYSED AND PREDICTED THE OUTCOME OF DIABAETES PATEINTS.
+IT DEPENDS ON MULITPLLE FEATURES. - Pregnancies,Glucose, BloodPressure,
+ SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age. these are independent variables. outcome is dependent variable.
+ its a classification bussiness problem.
+ outcome is either 0 or 1.
+ 0 - not diabates patient
+ 1 - diabates patient.
+ datapreprocessing was done. data wangling and data cleaning.
+ try to preform EDA analysis. and tried to find which feature plays a major role in predecting outcome.
+ Randam forest algothrim was applied and results is summarised as stated above.
+ 
+ 
